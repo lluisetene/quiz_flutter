@@ -48,7 +48,7 @@ class _QuizState extends State<Quiz> {
 
     if (activeScreen == 'restart-quiz') {
       selectedAnswers = [];
-      screenWidget = QuestionsScreen(onSelectedAnswer: questions);
+      // screenWidget = QuestionsScreen(onSelectedAnswer: questions);
     }
 
     return MaterialApp(
